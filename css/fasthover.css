@@ -1,6 +1,6 @@
 .hs-wrapper{
 	width: 196px;
-    height: 223px;
+    height: 196px;
 	position: relative;
 	margin: 0 auto;
 	overflow: hidden;
@@ -88,11 +88,11 @@
 	z-index: 2;
 }
 .agile_ecommerce_tab_left:hover .hs-wrapper img,.hs-wrapper:hover img{
-	-webkit-animation-play-state: running;
-	-moz-animation-play-state: running;
-	-o-animation-play-state: running;
-	-ms-animation-play-state: running;
-	animation-play-state: running;
+	-webkit-animation-play-state: paused;
+	-moz-animation-play-state: paused;
+	-o-animation-play-state: paused;
+	-ms-animation-play-state: paused;
+	animation-play-state: paused;
 }
 .hs-overlay{
 	position: absolute;
@@ -174,43 +174,43 @@
 @media (max-width: 1080px){
 	.hs-wrapper {
 		width: 158px;
-		height: 180px;
+		height: 158px;
 	}
 	.hs-wrapper1 {
 		width: 205px !important;
-		height: 273px !important;
+		height: 205px !important;
 	}
 	.hs-wrapper2 {
 		width: 179px !important;
-		height: 230px !important;
+		height: 179px !important;
 	}
 	.hs-wrapper3 {
 		width: 205px !important;
-		height: 273px !important;
+		height: 205px !important;
 	}
 }
 @media (max-width:991px){
 	.hs-wrapper {
 		width: 215px;
-		height: 244px;
+		height: 215px;
 	}
 	.hs-wrapper1 {
 		width: 150px !important;
-		height: 200px !important;
+		height: 150px !important;
 	}
 	.hs-wrapper2 {
 		width: 210px !important;
-		height: 280px !important;
+		height: 210px !important;
 	}
 	.hs-wrapper3 {
 		width: 150px !important;
-		height: 200px !important;
+		height: 150px !important;
 	}
 }
 @media (max-width:768px){
 	.hs-wrapper3 {
 		width: 210px !important;
-		height: 280px !important;
+		height: 210px !important;
 	}
 }
 @media (max-width:736px){
