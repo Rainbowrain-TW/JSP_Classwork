@@ -82,11 +82,11 @@ th{
 	color:#EC8519;
 	width:170px;
 	font-weight:bold;
-	font-size: 22px;
+	font-size: 20px;
 	padding: 8px;
 }
 td{
-	font-size: 22px;
+	font-size: 20px;
 	margin:auto auto;
 	color:#272727;
 	padding: 8px;
@@ -94,10 +94,9 @@ td{
 .title{
 	color:#FF4D40;
 	font-weight:bold;
-	font-size: 24px;
-	margin-left:45%;
-	margin-top: 5%;
-	
+	font-size: 22px;
+	text-align: right;
+	padding-right: 6%;
 }
 .inform{
 	color:#EC8519;
@@ -195,9 +194,11 @@ select{
 			<td>${item.price}</td>
 			<td>${item.total}</td>
 		</tr>
-			</c:forEach>		 
-	</table>
-		<div class="title">總計NT:$&nbsp;${sessionScope.total}</div>
+			</c:forEach>
+		<tr>
+		<td colspan="4" class="title">總計NT:$&nbsp;${sessionScope.total}</td>
+		</tr>			 
+	</table> 
 		<hr/>
 		<div class="inform">訂貨人資訊</div>
 		<div class="div2">中文姓名&nbsp;<input type="text" name="name" id="text1"/>&nbsp;先生<input type="radio" name="title" value="先生" checked="checked"/>&nbsp;小姐<input type="radio" name="title" value="小姐"/><span class="alert" id="textName">*請輸入姓名</span></div>
