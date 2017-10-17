@@ -201,8 +201,8 @@ select{
 	</table> 
 		<hr/>
 		<div class="inform">訂貨人資訊</div>
-		<div class="div2">中文姓名&nbsp;<input type="text" name="name" id="text1"/>&nbsp;先生<input type="radio" name="title" value="先生" checked="checked"/>&nbsp;小姐<input type="radio" name="title" value="小姐"/><span class="alert" id="textName">*請輸入姓名</span></div>
-		<div class="div2">手機號碼&nbsp;<input type="text" name="phone" id="text2"/><span class="alert" id="textPhone">*請輸入手機號碼</span></div>
+		<div class="div2">中文姓名&nbsp;<input type="text" name="name" id="text1" placeholder="請輸入姓名"/>&nbsp;先生<input type="radio" name="title" value="先生" checked="checked"/>&nbsp;小姐<input type="radio" name="title" value="小姐"/><span class="alert" id="textName">*請輸入姓名</span></div>
+		<div class="div2">手機號碼&nbsp;<input type="text" name="phone" id="text2" placeholder="請輸入手機號碼"/><span class="alert" id="textPhone">*請輸入手機號碼</span></div>
 		<div class="div2">取貨門市&nbsp;
 		<select name="shop">
 		<option value="none"></option>

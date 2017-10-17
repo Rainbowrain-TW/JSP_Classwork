@@ -102,7 +102,7 @@ where o.email='${param.Email}'
 order by o.orderdate desc
 
 </sql:query>
-<p>${param.Email}</p>
+<p>${param.Email}&nbsp;的訂單</p>
 <div class="div1">
 	<div class="div3"><img src="images/cart001.png" style="vertical-align:middle;margin-right:10px;" />訂單查詢</div>
 <table rules="rows" frame="below">
@@ -144,6 +144,6 @@ order by o.orderdate desc
 			 
 </table>
 </div>
-<a href="index.html"><button type="button" class="btn">確認並回首頁</button></a>
+<a href="index.jsp"><button type="button" class="btn">確認並回首頁</button></a>
 </body>
 </html>
