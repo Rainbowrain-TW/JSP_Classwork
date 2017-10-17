@@ -1,13 +1,13 @@
 .hs-wrapper{
 	width: 196px;
-    height: 196px;
+    height: 223px;
 	position: relative;
 	margin: 0 auto;
 	overflow: hidden;
 }
 .hs-wrapper1{
 	width: 255px !important;
-    height:255px !important;
+    height:340px !important;
 }
 .hs-wrapper2 {
     width: 223px !important;
@@ -88,11 +88,11 @@
 	z-index: 2;
 }
 .agile_ecommerce_tab_left:hover .hs-wrapper img,.hs-wrapper:hover img{
-	-webkit-animation-play-state: paused;
-	-moz-animation-play-state: paused;
-	-o-animation-play-state: paused;
-	-ms-animation-play-state: paused;
-	animation-play-state: paused;
+	-webkit-animation-play-state: running;
+	-moz-animation-play-state: running;
+	-o-animation-play-state: running;
+	-ms-animation-play-state: running;
+	animation-play-state: running;
 }
 .hs-overlay{
 	position: absolute;
@@ -174,43 +174,43 @@
 @media (max-width: 1080px){
 	.hs-wrapper {
 		width: 158px;
-		height: 158px;
+		height: 180px;
 	}
 	.hs-wrapper1 {
 		width: 205px !important;
-		height: 205px !important;
+		height: 273px !important;
 	}
 	.hs-wrapper2 {
 		width: 179px !important;
-		height: 179px !important;
+		height: 230px !important;
 	}
 	.hs-wrapper3 {
 		width: 205px !important;
-		height: 205px !important;
+		height: 273px !important;
 	}
 }
 @media (max-width:991px){
 	.hs-wrapper {
 		width: 215px;
-		height: 215px;
+		height: 244px;
 	}
 	.hs-wrapper1 {
 		width: 150px !important;
-		height: 150px !important;
+		height: 200px !important;
 	}
 	.hs-wrapper2 {
 		width: 210px !important;
-		height: 210px !important;
+		height: 280px !important;
 	}
 	.hs-wrapper3 {
 		width: 150px !important;
-		height: 150px !important;
+		height: 200px !important;
 	}
 }
 @media (max-width:768px){
 	.hs-wrapper3 {
 		width: 210px !important;
-		height: 210px !important;
+		height: 280px !important;
 	}
 }
 @media (max-width:736px){
