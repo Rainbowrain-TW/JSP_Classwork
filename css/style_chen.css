@@ -1,5 +1,4 @@
 html, body{
-	color:aliceblue;
     font-size: 100%;
 	background:	#fff;
 	font-family:'Open Sans', sans-serif;
@@ -481,7 +480,7 @@ li.w3pages .dropdown-menu > li > a:hover{
 /*-- //navigation --*/
 /*-- banner --*/
 .banner{
-	background: url(../product/resource/banners/index_banner.jpg) no-repeat center 0px;
+	background:url(../images/b1.jpg) no-repeat center 0px; 
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -503,12 +502,12 @@ li.w3pages .dropdown-menu > li > a:hover{
 	text-align: left;
 }
 .banner.banner1{
-	background: url(../product/resource/banners/summerOnSale.gif) no-repeat center;
+	background:url(../images/bg1.jpg) no-repeat center;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
-	-ms-background-size:cover;
+	-ms-background-size:cover; 
 }
 .banner.banner2{
 	background:url(../images/bg2.jpg) no-repeat center;
@@ -529,17 +528,17 @@ li.w3pages .dropdown-menu > li > a:hover{
 /*-- agileits --*/ 
 .banner h3{
 	font-size: 2em;
-	color:#fff;
-	/* transform: rotate(-90deg); */
-	/* -webkit-transform: rotate(-90deg); */
-	-moz-transform: rotate(-90deg);
-	-o-transform: rotate(-90deg);
-	-ms-transform: rotate(-90deg);
-	text-transform: uppercase;
-	width: 45%;
-	margin: 9em 0 0;
+    color:#fff;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    text-transform: uppercase;
+    width: 45%;
+    margin: 9em 0 0;
 	padding: 1em .5em;
-	background:rgba(33, 33, 33, 0.85);
+    background:rgba(33, 33, 33, 0.85);
 }
 .banner h3 span{
 	display: block;
@@ -702,14 +701,8 @@ li.w3pages .dropdown-menu > li > a:hover{
 	-moz-transition:.5s all;
 	transition:.5s all;
 }
-.simpleCart_shelfItem button.w3ls-cart:hover{
-	background:#3c43a4;
-	color:#fff;
-	border:1px solid #3c43a4;
-}
-/*-- image-hover --*/
 
-/*-- Ratings --*/
+/*-- image-hover --*/
 
 /*-- //Ratings --*/
 .color-quality ul li {
@@ -2908,7 +2901,7 @@ td.invert-image a img {
 	.banner h3 {
 		font-size: 1.8em;
 		width: 40%;
-		margin: 30em 0 0;
+		margin: 8em 0 0;
 	} 
 	.banner {
 		min-height: 580px;
@@ -3087,7 +3080,7 @@ td.invert-image a img {
 		font-size: 1.1em;
 	}	
 }
-@media (max-width: 991px){
+@media (max-width:991px){
 	#w3lssbmincart {
 		left: 51%; 
 	}
