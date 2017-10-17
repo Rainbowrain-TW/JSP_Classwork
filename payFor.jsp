@@ -119,7 +119,7 @@ button{
 			<td style="color:#B22222;font-weight:bold;">NT$&nbsp;${sessionScope.total}</td>
 		</tr>			 
 	</table>
-		<a href="index.html"><button type="button" class="btn">確認並回首頁</button></a>
+		<a href="index.jsp"><button type="button" class="btn">確認並回首頁</button></a>
 	</div>
 </body>
 </html>
