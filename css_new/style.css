@@ -701,7 +701,11 @@ li.w3pages .dropdown-menu > li > a:hover{
 	-moz-transition:.5s all;
 	transition:.5s all;
 }
-
+.simpleCart_shelfItem button.w3ls-cart:hover{
+	background:#3c43a4;
+	color:#fff;
+	border:1px solid #3c43a4;
+}
 /*-- image-hover --*/
 
 /*-- //Ratings --*/
